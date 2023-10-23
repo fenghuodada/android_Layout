@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@mipmap/background_1"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/group_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f0f"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radiobutton_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男生"
+            android:textSize="28dp"
+            android:textColor="@color/black"/>
+        <RadioButton
+            android:id="@+id/radiobutton_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28dp"
+            android:text="女生"
+            android:textColor="@color/black"/>
+        <RadioButton
+            android:id="@+id/radiobutton_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人妖"
+            android:textSize="28dp"
+            android:textColor="@color/black"/>
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/radiogroup1"
+        android:layout_width="wrap_content"
+        android:background="#f23f"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/raduobutton1"
+            android:layout_width="wrap_content"
+            android:text="男"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/raduobutton2"
+            android:layout_width="wrap_content"
+            android:text="女"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textview11"
+        android:layout_width="wrap_content"
+        android:text="您选择的兴趣爱好为"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textview12"
+        android:text="您选择的兴趣爱好为"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/check1"
+        android:background="#f2f"
+        android:layout_width="wrap_content"
+        android:text="羽毛球"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/check2"
+        android:background="#f2f"
+        android:layout_width="wrap_content"
+        android:text="篮球"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/check3"
+        android:background="#f2f"
+        android:layout_width="wrap_content"
+        android:text="乒乓球"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

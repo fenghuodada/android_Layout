@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:stretchColumns="1"
+    android:layout_height="match_parent">
+    <TableRow>
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名:"
+            android:textColor="#EE6363"
+            android:textSize="28dp"/>
+        <EditText
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入用户名"
+            android:textSize="28dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密    码:"
+            android:textColor="#EE6363"
+            android:textSize="28dp"/>
+        <EditText
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:password="true"
+            android:textSize="28dp"/>
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_span="2"
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:textSize="28dp"
+            android:background="#00BFFF"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_span="2"
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退出"
+            android:textSize="28dp"
+            android:background="#00BFFF"/>
+
+            />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_span="2"
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选中"
+            android:textSize="28dp"
+            android:background="#00BFFF"/>
+            />
+    </TableRow>
+
+
+</TableLayout>
